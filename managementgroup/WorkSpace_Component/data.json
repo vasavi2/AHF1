@@ -1,0 +1,411 @@
+[
+    {
+        "iteam": " DATA INGESTION ",
+        "collapse": true,
+        "submenu": [
+            {
+                "name": "File Sources",
+                "factory": "fileSources",
+                "iO": "inputfactory",
+                "properties": {
+                   
+                    "Filepath": {
+                        "value": "FileSources path",
+                        "type": "text"
+                    },
+                    "Type": {
+                        "value": "propqqs",
+                        "values": [
+                            "CSV",
+                            "Excel"
+                        ],
+                        "type": "select"
+                    }
+                }
+            },
+            {
+                "name": "OSI PI",
+                "factory": "oSIPI",
+                "iO": "inputfactory",
+                "properties": {
+                    "Filepath": {
+                        "value": "oSIPI path",
+                        "type": "text"
+                    },
+                    "Type": {
+                        "value": "oSIPI",
+                        "values": [
+                            "CSV",
+                            "Excel"
+                        ],
+                        "type": "text"
+                    }
+                }
+            },
+            {
+                "name": "SCADA",
+                "factory": "sCADA",
+                "iO": "inputfactory",
+                "properties": {
+                    "Filepath": {
+                        "value": "SCADA path",
+                        "type": "text"
+                    },
+                    "Type": {
+                        "value": "SCADA",
+                        "values": [
+                            "CSV",
+                            "Excel"
+                        ],
+                        "type": "text"
+                    }
+                }
+            },
+            {
+                "name": "SAP HANA",
+                "factory": "sAPHANA",
+                "iO": "inputfactory",
+                "properties": {
+                    "Filepath": {
+                        "value": "SAP HANA path",
+                        "type": "text"
+                    },
+                    "Type": {
+                        "value": "propqqs",
+                        "values": [
+                            "CSV",
+                            "Excel"
+                        ],
+                        "type": "select"
+                    }
+                }
+            },
+            {
+                "name": "IOT GATEWAY",
+                "factory": "iOTGATEWAY",
+                "iO": "inputfactory",
+                "properties": {
+                    "Filepath": {
+                        "value": "iOTGATEWAY path",
+                        "type": "text"
+                    },
+                    "Type": {
+                        "value": "propqqs",
+                        "values": [
+                            "CSV",
+                            "Excel"
+                        ],
+                        "type": "select"
+                    }
+                }
+            },
+            {
+                "name": "MQTT",
+                "factory": "mQTT",
+                "iO": "inputfactory",
+                "properties": {
+                    "Filepath": {
+                        "value": "MQTT path",
+                        "type": "text"
+                    },
+                    "Type": {
+                        "value": "propqqs",
+                        "values": [
+                            "CSV",
+                            "Excel"
+                        ],
+                        "type": "select"
+                    }
+                }
+            },
+            {
+                "name": "KAFKA",
+                "factory": "kAFKA",
+                "iO": "inputfactory",
+                "properties": {
+                    "Filepath": {
+                        "value": "KAFKA path",
+                        "type": "text"
+                    },
+                    "Type": {
+                        "value": "propqqs",
+                        "values": [
+                            "CSV",
+                            "Excel"
+                        ],
+                        "type": "select"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "iteam": "DATA QUALITY ",
+        "collapse": false,
+        "submenu": [
+            {
+                "name": "Data Quality",
+                "factory": "dataQualityAssesment",
+                "iO": "inputoutputfactory"
+               
+            }
+            
+            
+
+            
+        ]
+    },
+
+    {
+        "iteam": "DATA PREPROCESSING ",
+        "collapse": false,
+        "submenu": [
+            {
+                "name": "Data Cleaning ",
+                "factory": "dataQualityAssesment",
+                "iO": "inputoutputfactory",
+                "properties": {
+                    "Filepath": {
+                        "value": "DATA QUALITY  path",
+                        "type": "text"
+                    },
+                    "Type": {
+                        "value": "propqqs",
+                        "values": [
+                            "CSV",
+                            "Excel"
+                        ],
+                        "type": "select"
+                    }
+                }
+            }   
+        ]
+    }
+    ,
+    {
+        "iteam": "Model Training ",
+        "collapse": false,
+        "submenu": [
+            {
+                "name": "K_Means",
+                "factory": "dataQualityAssesment",
+                "iO": "inputoutputfactory",
+                "properties": {
+                    "Filepath": {
+                        "value": "DATA QUALITY  path",
+                        "type": "text"
+                    },
+                    "Type": {
+                        "value": "propqqs",
+                        "values": [
+                            "CSV",
+                            "Excel"
+                        ],
+                        "type": "select"
+                    }
+                }
+            } ,
+            {
+                "name": "GMM",
+                "factory": "dataQualityAssesment",
+                "iO": "inputoutputfactory",
+                "properties": {
+                    "Filepath": {
+                        "value": "DATA QUALITY  path",
+                        "type": "text"
+                    },
+                    "Type": {
+                        "value": "propqqs",
+                        "values": [
+                            "CSV",
+                            "Excel"
+                        ],
+                        "type": "select"
+                    }
+                }
+            } ,
+            {
+                "name": "Isolation Forest ",
+                "factory": "dataQualityAssesment",
+                "iO": "inputoutputfactory",
+                "properties": {
+                    "Filepath": {
+                        "value": "DATA QUALITY  path",
+                        "type": "text"
+                    },
+                    "Type": {
+                        "value": "propqqs",
+                        "values": [
+                            "CSV",
+                            "Excel"
+                        ],
+                        "type": "select"
+                    }
+                }
+            }   
+        ]
+    },
+    {
+        "iteam": "Model  Evalution",
+        "collapse": false,
+        "submenu": [
+            {
+                "name": "Model  Evalution",
+                "factory": "metadataextractor",
+                "iO": "inputoutputfactory",
+                "properties": {
+                    "Filepath": {
+                        "value": "DATA CATALOG path",
+                        "type": "text"
+                    },
+                    "Type": {
+                        "value": "propqqs",
+                        "values": [
+                            "CSV",
+                            "Excel"
+                        ],
+                        "type": "select"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "iteam": "Inference",
+        "collapse": false,
+        "submenu": [
+            {
+                "name": "Data Fitting",
+                "factory": "filter",
+                "iO": "inputoutputfactory",
+                "properties": {
+                    "Filepath": {
+                        "value": "filter path",
+                        "type": "text"
+                    },
+                    "Type": {
+                        "value": "propqqs",
+                        "values": [
+                            "CSV",
+                            "Excel"
+                        ],
+                        "type": "select"
+                    }
+                }
+            },
+            {
+                "name": "Generating Final Table",
+                "factory": "filter",
+                "iO": "inputoutputfactory",
+                "properties": {
+                    "Filepath": {
+                        "value": "filter path",
+                        "type": "text"
+                    },
+                    "Type": {
+                        "value": "propqqs",
+                        "values": [
+                            "CSV",
+                            "Excel"
+                        ],
+                        "type": "select"
+                    }
+                }
+            }
+            
+
+           
+        ]
+    },
+    {
+        "iteam": "DATA Storage",
+        "collapse": false,
+        "submenu": [
+            {
+                "name": "MS SQL Server",
+                "factory": "mSSQLServer",
+                "iO": "outputfactory",
+                "properties": {
+                    "User Name": {
+                        "value": "User Name",
+                        "type": "text"
+                    },
+                    "Password": {
+                        "value": "Password",
+                        "type": "text"
+                    }
+                    
+                }
+            },
+            {
+                "name": "My SQL",
+                "factory": "MySQL",
+                "iO": "outputfactory",
+                "properties": {
+                    "User Name": {
+                        "value": "User Name",
+                        "type": "text"
+                    },
+                    "Password": {
+                        "value": "Password",
+                        "type": "text"
+                    }
+                }
+            },
+            {
+                "name": "Postgre SQL",
+                "factory": "postgreSQL",
+                "iO": "outputfactory",
+                "properties": {
+                    "User Name": {
+                        "value": "User Name",
+                        "type": "text"
+                    },
+                    "Password": {
+                        "value": "Password",
+                        "type": "text"
+                    }
+                }
+            },
+            {
+                "name": "Cassandra",
+                "factory": "cassandra",
+                "iO": "outputfactory",
+                "properties": {
+                    "Filepath": {
+                        "value": "Cassandra path",
+                        "type": "text"
+                    },
+                    "Type": {
+                        "value": "propqqs",
+                        "values": [
+                            "CSV",
+                            "Excel"
+                        ],
+                        "type": "select"
+                    }
+                }
+            },
+            {
+                "name": "MongoDB",
+                "factory": "mongoDB",
+                "iO": "outputfactory",
+                "properties": {
+                    "Filepath": {
+                        "value": "MongoDB path",
+                        "type": "text"
+                    },
+                    "Type": {
+                        "value": "propqqs",
+                        "values": [
+                            "CSV",
+                            "Excel"
+                        ],
+                        "type": "select"
+                    }
+                }
+            }
+        ]
+    }
+]
+

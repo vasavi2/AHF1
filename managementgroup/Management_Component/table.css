@@ -1,0 +1,128 @@
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: left;
+  
+}
+.mui-datatables-1ex1afd-MuiTableCell-root{
+    display: table-cell;
+    border: groove;
+    text-align: center;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight:400;
+    font-size:1rem;
+     border: 1px solid rgba(224, 224, 224, 1);
+    outline: 0;
+    padding:16px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #F8F8F8;
+}
+
+/* .styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+} */
+button {
+    margin-top: 10px;
+    margin: 3px;
+    margin-bottom: 10px;
+    background: #0479B2 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    width: 61px;
+    height: 35px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 80px;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.orange {
+    background-color: #EA8831;
+}
+
+.red {
+    background-color: #BA3128
+}
+
+.green {
+    background-color: #75BC64;
+}
+
+.blue {
+    background-color: #4396A3;
+}
+
+#register, #login {
+    width: 300px;
+    border: 1px solid #d6d7da;
+    padding: 0px 15px 15px 15px;
+    border-radius: 5px;
+    font-family: arial;
+    line-height: 16px;
+    color: #333333;
+    font-size: 14px;
+    background: #ffffff;
+    margin: 100px auto;
+  }
+  
+  form label, form input {
+    display: block;
+     width: 90%
+  }
+  
+  form input {
+    padding: 10px;
+    border: solid 1px #BDC7D8;
+  
+  }
+  
+  .button {
+    background-color: #00BFFF;
+    border-color: #3ac162;
+    font-weight: bold;
+    padding: 12px 15px;
+    color: #ffffff;
+  }
+  
+  .errorMsg {
+    color: #cc0000;
+    margin-bottom: 12px;
+  }
+  
+  .sucessMsg {
+    color: #6B8E23;
+    margin-bottom: 10px;
+  }
