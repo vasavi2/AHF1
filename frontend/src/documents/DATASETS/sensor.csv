@@ -1,0 +1,4 @@
+﻿sensorgroup_id,asset_id,name,component,endpoint,update_time_stamp
+100,1,Compressor Dry Gas Seal,compressor,_2K1701_DGS,15-03-2023 08:12
+200,1,Compressor Journal Bearing,compressor,_2K1701_CJB,15-03-2023 08:12
+300,1,Compressor Lube Oil System,lube oil system,_2K1701_LOS,15-03-2023 08:12
