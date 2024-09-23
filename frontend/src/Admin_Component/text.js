@@ -1,0 +1,9 @@
+export const DASHBOARD_HEADER = "Dashboard";
+export const DASHBOARD_WORKSPACE ="Workspace";
+export const DASHBOARD_SETTINGS ="Settings";
+export const DASHBOARD_ADMIN =" Admin Page";
+export const DASHBOARD_POWERBI =" PowerBI";
+export const DASHBOARD_ALERTMANAGEMENT ="Alert Management";
+export const MENU_HOVER ="menuHover";
+export const MENU_COLOR ="menuColor";
+export const PlANT_TITILE="Plants";

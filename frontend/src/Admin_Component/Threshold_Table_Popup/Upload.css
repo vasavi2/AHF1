@@ -1,0 +1,14 @@
+.viewer{
+    width: 900px;
+    height: 30px;
+    background-color: #e4e4e4;
+    position: absolute;
+    top: 210px;
+    left:-0px;
+    margin-left: 350px;
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

@@ -1,0 +1,14 @@
+.table-container {
+    overflow-y: auto;
+  }
+   
+.centered-table {
+    width: 100%;
+  }
+
+
+.custom-header{
+  margin-left: 900px;
+  color: aquamarine;
+  size: 400px;
+}

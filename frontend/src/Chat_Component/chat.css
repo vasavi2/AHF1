@@ -1,0 +1,23 @@
+.container{
+    height:10vh;
+    display:flex;
+    text-align: center;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.title{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    column-gap:1.6rem;
+}
+
+.title::before, .title::after{
+    content: "";
+    height: 2px;
+    width: 400px;
+    /* background-color:#64748B; */
+    background-color: #008FD50D;
+    display: block;
+}
